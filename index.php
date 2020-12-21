@@ -4,7 +4,7 @@ require_once('tools.php');
 
 //preg_match_all('@<a rel="bookmark">(.*?)</a>@si', tools::getPageContent(), $result);
 $dom = new DOMDocument;
-// Load HTML from a string
+
 $internalErrors = libxml_use_internal_errors(true);
 $dom->loadHTML(tools::getPageContent('https://tr.euronews.com/'));
 
@@ -24,8 +24,6 @@ foreach ($dom->getElementsByTagName('a') as $element) {
             }
         }
     }
-
-
 }
 /*
 print_r($dom->getElementsByTagName('p'));
