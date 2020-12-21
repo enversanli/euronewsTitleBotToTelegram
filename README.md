@@ -7,6 +7,7 @@ Download this project and use that.
 İmplement basic php files to your projec. 
 If you have any problem or question, just contact with me.
 
-ENVER ŞANLI - Web Developer, Social Thinker, Farmer
 
+
+ENVER ŞANLI - Web Developer, Social Thinker, Farmer
 sanli.web@hotmail.com
